@@ -1,5 +1,9 @@
 body{
     width: 33%;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 #res{
@@ -14,9 +18,9 @@ body{
     font-size: 18px;
     margin: 0;
     float: left;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     height: 36px;
+    cursor: pointer;
 }
 #btnClr, #btnEql{
     background-color: darkgreen;
@@ -24,7 +28,9 @@ body{
     font-size: 18px;
     margin: 0;
     float: left;
+    text-align: center;
     height: 36px;
+    cursor: pointer;
 }
 
 #btnSum,
@@ -36,7 +42,9 @@ body{
     font-size: 18px;
     margin: 0;
     float: left;
+    text-align: center;
     height: 36px;
+    cursor: pointer;
 }
 #btns{
     display: grid;
