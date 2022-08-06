@@ -1,0 +1,46 @@
+body{
+    width: 33%;
+}
+
+#res{
+    background-color: lightgray;
+    border: solid;
+    height: 48px;
+    font-size: 20px;
+}
+#btn0, #btn1{
+    background-color: lightgreen;
+    color: brown;
+    font-size: 18px;
+    margin: 0;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+}
+#btnClr, #btnEql{
+    background-color: darkgreen;
+    color: white;
+    font-size: 18px;
+    margin: 0;
+    float: left;
+    height: 36px;
+}
+
+#btnSum,
+#btnSub,
+#btnMul,
+#btnDiv{
+    background-color:black ;
+    color: red;
+    font-size: 18px;
+    margin: 0;
+    float: left;
+    height: 36px;
+}
+#btns{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+   
+}
