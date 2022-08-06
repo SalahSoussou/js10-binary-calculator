@@ -22,8 +22,34 @@ btn1.addEventListener("click", () => {
     res.innerHTML = `${operand1.join("")}${operater}${operand2.join("")}`;
   }
 });
+
 btnSum.addEventListener("click", () => {
   operaterClicked = true;
   operater = "+";
   res.innerHTML = `${operand1.join("")}${operater}${operand2.join("")}`;
+});
+
+btnSub.addEventListener("click", () => {
+  operaterClicked = true;
+  operater = "-";
+  res.innerHTML = `${operand1.join("")}${operater}${operand2.join("")}`;
+});
+
+btnMul.addEventListener("click", () => {
+  operaterClicked = true;
+  operater = "*";
+  res.innerHTML = `${operand1.join("")}${operater}${operand2.join("")}`;
+});
+
+btnDiv.addEventListener("click", () => {
+  operaterClicked = true;
+  operater = "/";
+  res.innerHTML = `${operand1.join("")}${operater}${operand2.join("")}`;
+});
+
+btnClr.addEventListener("click", () => {
+  operand1 = [];
+  operand2 = [];
+  operater = null;
+  res.innerHTML = "";
 });
