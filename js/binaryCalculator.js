@@ -54,3 +54,21 @@ btnClr.addEventListener("click", () => {
   operater;
   res.innerHTML = "";
 });
+
+btnEql.addEventListener("click", () => {
+  let num1 = parseInt(operand1.join(""), 2);
+  let num2 = parseInt(operand2?.join(""), 2);
+  let rusult =
+    operater === "+"
+      ? num1 + num2
+      : operater === "-"
+      ? num1 - num2
+      : operater === "*"
+      ? num1 * num2
+      : num1 / num2;
+  res.innerHTML = rusult.toString(2);
+  operand1 = [];
+  operand2 = [];
+  operaterClicked = false;
+  operater;
+});
