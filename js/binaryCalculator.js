@@ -1,3 +1,12 @@
+const res = document.getElementById("res");
+const btn0 = document.getElementById("btn0");
+const btn1 = document.getElementById("btn1");
+const btnClr = document.getElementById("btnClr");
+const btnEql = document.getElementById("btnEql");
+const btnSum = document.getElementById("btnSum");
+const btnSub = document.getElementById("btnSub");
+const btnMul = document.getElementById("btnMul");
+const btnDiv = document.getElementById("btnDiv");
 let operand1 = [];
 let operand2 = [""];
 let operater;
